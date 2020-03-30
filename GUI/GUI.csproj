@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99920D3E-6436-4448-A43C-8338E7623F01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguracaoBDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguracaoBDados.Designer.cs">
+      <DependentUpon>frmConfiguracaoBDados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaCidade.Designer.cs">
+      <DependentUpon>frmConsultaCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaAtividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaAtividades.Designer.cs">
+      <DependentUpon>frmConsultaAtividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaCentroCustos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaCentroCustos.Designer.cs">
+      <DependentUpon>frmConsultaCentroCustos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaContato.Designer.cs">
+      <DependentUpon>frmConsultaContato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaFerramentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaFerramentas.Designer.cs">
+      <DependentUpon>frmConsultaFerramentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaPais.Designer.cs">
+      <DependentUpon>frmConsultaPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaPlanoContas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaPlanoContas.Designer.cs">
+      <DependentUpon>frmConsultaPlanoContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaSubCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaSubCategoria.Designer.cs">
+      <DependentUpon>frmConsultaSubCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaTipoCobranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaTipoCobranca.Designer.cs">
+      <DependentUpon>frmConsultaTipoCobranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaEstado.Designer.cs">
+      <DependentUpon>frmConsultaEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaUndMedida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaUndMedida.Designer.cs">
+      <DependentUpon>frmConsultaUndMedida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroAtividades.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroAtividades.Designer.cs">
+      <DependentUpon>UCCadastroAtividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroCentroCustos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroCentroCustos.Designer.cs">
+      <DependentUpon>UCCadastroCentroCustos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroContatos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroContatos.Designer.cs">
+      <DependentUpon>UCCadastroContatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroFerramentas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroFerramentas.Designer.cs">
+      <DependentUpon>UCCadastroFerramentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroPlanoContas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroPlanoContas.Designer.cs">
+      <DependentUpon>UCCadastroPlanoContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroProduto.Designer.cs">
+      <DependentUpon>UCCadastroProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroSubCategoria.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroSubCategoria.Designer.cs">
+      <DependentUpon>UCCadastroSubCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaCategoria.Designer.cs">
+      <DependentUpon>frmConsultaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroCategoria.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroCategoria.Designer.cs">
+      <DependentUpon>UCCadastroCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroTipoCobranca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroTipoCobranca.Designer.cs">
+      <DependentUpon>UCCadastroTipoCobranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroUFCidade.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroUFCidade.Designer.cs">
+      <DependentUpon>UCCadastroUFCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroUFEstado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroUFEstado.Designer.cs">
+      <DependentUpon>UCCadastroUFEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroUFPais.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroUFPais.Designer.cs">
+      <DependentUpon>UCCadastroUFPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCadastroUndMedida.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCadastroUndMedida.Designer.cs">
+      <DependentUpon>UCCadastroUndMedida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCModDeFormCadastro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCModDeFormCadastro.Designer.cs">
+      <DependentUpon>UCModDeFormCadastro.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{50501d39-deb7-41be-8b12-508acdd86d76}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\DLL.csproj">
+      <Project>{d615d431-287e-4045-9305-ff134fc38487}</Project>
+      <Name>DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferramentas\FerramentasDeProjeto.csproj">
+      <Project>{fb43626c-8ab0-40ee-959a-7908920429a8}</Project>
+      <Name>FerramentasDeProjeto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{2a46edfd-1a91-41f7-9b25-652e01f9484e}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguracaoBDados.resx">
+      <DependentUpon>frmConfiguracaoBDados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaAtividades.resx">
+      <DependentUpon>frmConsultaAtividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaCategoria.resx">
+      <DependentUpon>frmConsultaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaCentroCustos.resx">
+      <DependentUpon>frmConsultaCentroCustos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaCidade.resx">
+      <DependentUpon>frmConsultaCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaContato.resx">
+      <DependentUpon>frmConsultaContato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaEstado.resx">
+      <DependentUpon>frmConsultaEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaFerramentas.resx">
+      <DependentUpon>frmConsultaFerramentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaPais.resx">
+      <DependentUpon>frmConsultaPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaPlanoContas.resx">
+      <DependentUpon>frmConsultaPlanoContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaSubCategoria.resx">
+      <DependentUpon>frmConsultaSubCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaTipoCobranca.resx">
+      <DependentUpon>frmConsultaTipoCobranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaUndMedida.resx">
+      <DependentUpon>frmConsultaUndMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroAtividades.resx">
+      <DependentUpon>UCCadastroAtividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroCategoria.resx">
+      <DependentUpon>UCCadastroCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroCentroCustos.resx">
+      <DependentUpon>UCCadastroCentroCustos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroContatos.resx">
+      <DependentUpon>UCCadastroContatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroFerramentas.resx">
+      <DependentUpon>UCCadastroFerramentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroPlanoContas.resx">
+      <DependentUpon>UCCadastroPlanoContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroProduto.resx">
+      <DependentUpon>UCCadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroSubCategoria.resx">
+      <DependentUpon>UCCadastroSubCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroTipoCobranca.resx">
+      <DependentUpon>UCCadastroTipoCobranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroUFCidade.resx">
+      <DependentUpon>UCCadastroUFCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroUFEstado.resx">
+      <DependentUpon>UCCadastroUFEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroUFPais.resx">
+      <DependentUpon>UCCadastroUFPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCadastroUndMedida.resx">
+      <DependentUpon>UCCadastroUndMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCModDeFormCadastro.resx">
+      <DependentUpon>UCModDeFormCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_add_press_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_add_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_localizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_cancelar_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_excluir_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_localizar_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_sendemail_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alterar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alterar_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_salvar_resize.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

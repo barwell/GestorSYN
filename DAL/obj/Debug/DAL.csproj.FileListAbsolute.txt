@@ -1,0 +1,7 @@
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\DAL\bin\Debug\DAL.dll
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\DAL\bin\Debug\DAL.pdb
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\DAL\bin\Debug\Modelo.dll
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\DAL\bin\Debug\Modelo.pdb
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\DAL\obj\Debug\DAL.dll
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\DAL\obj\Debug\DAL.pdb

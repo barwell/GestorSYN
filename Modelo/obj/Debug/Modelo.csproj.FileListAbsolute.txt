@@ -1,0 +1,5 @@
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Modelo\bin\Debug\Modelo.dll
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Modelo\bin\Debug\Modelo.pdb
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Modelo\obj\Debug\Modelo.dll
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Modelo\obj\Debug\Modelo.pdb
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache

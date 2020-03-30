@@ -1,0 +1,5 @@
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Ferramentas\bin\Debug\Ferramentas.dll
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Ferramentas\bin\Debug\Ferramentas.pdb
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Ferramentas\obj\Debug\Ferramentas.csprojResolveAssemblyReference.cache
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Ferramentas\obj\Debug\Ferramentas.dll
+D:\DOCUMENTOS\PROJETOS\WSELÉTRICA SVN\trunk\GestorSYN\Ferramentas\obj\Debug\Ferramentas.pdb
